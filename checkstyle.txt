@@ -1,0 +1,20 @@
+Starting audit...
+[ERROR] D:\IdeaProjects\OOP_TV2\proiect2\.\src\database\Input.java:62:40: 'movies' hides a field. [HiddenField]
+[ERROR] D:\IdeaProjects\OOP_TV2\proiect2\.\src\database\Input.java:69:38: 'users' hides a field. [HiddenField]
+[ERROR] D:\IdeaProjects\OOP_TV2\proiect2\.\src\database\Movies.java:41:44: 'name' hides a field. [HiddenField]
+[ERROR] D:\IdeaProjects\OOP_TV2\proiect2\.\src\database\Movies.java:50:47: 'name' hides a field. [HiddenField]
+[ERROR] D:\IdeaProjects\OOP_TV2\proiect2\.\src\database\TempOutput.java:18:48: 'tempOut' hides a field. [HiddenField]
+[ERROR] D:\IdeaProjects\OOP_TV2\proiect2\.\src\database\Users.java:10:40: '15' is a magic number. [MagicNumber]
+[ERROR] D:\IdeaProjects\OOP_TV2\proiect2\.\src\database\Users.java:38:53: 'notifications' hides a field. [HiddenField]
+[ERROR] D:\IdeaProjects\OOP_TV2\proiect2\.\src\Main.java:20:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] D:\IdeaProjects\OOP_TV2\proiect2\.\src\pages\authpages\MoviesPage.java:79:5: Method length is 183 lines (max allowed is 150). [MethodLength]
+[ERROR] D:\IdeaProjects\OOP_TV2\proiect2\.\src\pages\authpages\seedetails\Rate.java:14:33: '5' is a magic number. [MagicNumber]
+[ERROR] D:\IdeaProjects\OOP_TV2\proiect2\.\src\pages\authpages\upgrades\BuyPremium.java:13:54: '10' is a magic number. [MagicNumber]
+[ERROR] D:\IdeaProjects\OOP_TV2\proiect2\.\src\pages\nonauthpages\Login.java:38: Line is longer than 100 characters (found 108). [LineLength]
+[ERROR] D:\IdeaProjects\OOP_TV2\proiect2\.\src\Test.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\IdeaProjects\OOP_TV2\proiect2\.\src\Test.java:9:28: Using the '.*' form of import should be avoided - java.util.concurrent.*. [AvoidStarImport]
+[ERROR] D:\IdeaProjects\OOP_TV2\proiect2\.\src\Test.java:158: Line is longer than 100 characters (found 108). [LineLength]
+[ERROR] D:\IdeaProjects\OOP_TV2\proiect2\.\src\Test.java:206:65: Parameter testFileName should be final. [FinalParameters]
+[ERROR] D:\IdeaProjects\OOP_TV2\proiect2\.\src\Test.java:222: Line is longer than 100 characters (found 108). [LineLength]
+Audit done.
+Checkstyle ends with 17 errors.
